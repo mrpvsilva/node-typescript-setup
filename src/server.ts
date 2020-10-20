@@ -1,9 +1,9 @@
-import express from 'express';
+import express from 'express'
 
-const app = express();
+const app = express()
 
 app.get('/', (_, res) => {
-    res.json({ message: 'Hello world!' });
-});
+  res.json({ message: 'Hello world!' })
+})
 
-app.listen(3000, () => console.log('Running n port 3000'))
+app.listen(3000)
